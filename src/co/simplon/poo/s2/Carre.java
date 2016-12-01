@@ -17,7 +17,7 @@ public long calculerperimetrecarre(int coteA,int coteB,int coteC,int coteD) {
 	Quadrilatere.coteB = coteC;
 	Quadrilatere.coteC = coteD;
 	
-	return (coteA+coteB+coteC+coteD);
+	return (coteA*4);
 	
 }
 

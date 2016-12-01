@@ -13,6 +13,8 @@ public class Cercles {
 	return (rayon*2*3.14);
 	}
 	
-	
+	public double calculerairecercle(int rayon){
+		return (rayon*rayon*3.14);
+	}
 	
 }
