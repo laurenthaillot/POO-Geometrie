@@ -9,7 +9,7 @@ public  class Quadrilatere {
 		protected static long coteC;
 		protected static long coteD;
 		
-		protected static long diametre;
+		
 		
 		
 		/**
