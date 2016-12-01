@@ -7,17 +7,16 @@ public class Carre extends Quadrilatere {
 	 * @param nBCote
 	 */
 		
-	public Carre(int nBCote) {
-		super(nBCote);
+	public Carre(int cote) {
+		super(cote);
 		
 	}
 
-public long calculerperimetrecarre(int coteA,int coteB,int coteC,int coteD) {
-	Quadrilatere.coteA = coteB;
-	Quadrilatere.coteB = coteC;
-	Quadrilatere.coteC = coteD;
+
+public long calculerperimetrecarre(int cote) {
 	
-	return (coteA*4);
+	
+	return (cote*4);
 	
 }
 

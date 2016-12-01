@@ -10,9 +10,7 @@ public  class Quadrilatere {
 		protected static long coteD;
 		
 		
-		
-		
-		/**
+			/**
 		 * @param nBCote
 		 */
 		public Quadrilatere(int nBCote) {

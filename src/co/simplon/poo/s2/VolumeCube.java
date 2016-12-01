@@ -5,11 +5,11 @@ public class VolumeCube extends Quadrilatere {
 	/**
 	 * @param nBCote
 	 */
-	public VolumeCube(int nBCote) {
-		super(nBCote);
+	public VolumeCube(int cote) {
+		super(cote);
 	}
-public long volumeDuCube (int coteA) {
-	return (coteA*coteA*coteA);
+public long volumeDuCube (int cote) {
+	return (cote*cote*cote);
 }
 
 

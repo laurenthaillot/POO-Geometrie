@@ -18,12 +18,13 @@ public class Main extends Quadrilatere {
 	double pcercle;
 	double acercle;
 	long Vcube;
+	int cote=10;
 	
 	
 	
 	
 	Carre lecarre = new Carre(4);
-	pcarre = lecarre.calculerperimetrecarre(10,10,10,10);
+	pcarre = lecarre.calculerperimetrecarre(cote);
 	
 	Triangles letriangle = new Triangles();
 	ptriangle = letriangle.calculerperimetretriangle(15, 15, 15);
@@ -37,8 +38,8 @@ public class Main extends Quadrilatere {
 	Cercles airecercle = new Cercles();
 	acercle = airecercle.calculerairecercle(10);
 	
-	VolumeCube volcube = new VolumeCube(10);
-	Vcube = volcube.volumeDuCube(10);
+	VolumeCube volcube = new VolumeCube(cote);
+	Vcube = volcube.volumeDuCube(cote);
 			
 	
 	System.out.println("Périmetre du carré: " + pcarre);
@@ -48,7 +49,7 @@ public class Main extends Quadrilatere {
 	System.out.println("");
 	System.out.println("Aire du Cercle : "+ acercle);
 	System.out.println("");
-	System.out.println("Volume du cube de "+ coteA +" de coté : "+Vcube );
+	System.out.println("Volume du cube de "+ cote+" de coté : "+Vcube );
 	
 	
 	}
